@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1388&q=80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.countdown-container {
+    display: flex;
+}
+.h1{
+    font-weight: normal;
+font-size: 4rem;
+margin-top: 2rem;
+}
+.big-test{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+
+}
